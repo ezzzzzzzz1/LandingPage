@@ -1,0 +1,57 @@
+/* Custom styles for the landing page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.features {
+    background-color: #f8f9fa;
+}
+
+.features .feature {
+    padding: 20px;
+}
+
+.features .icon {
+    color: #007bff;
+}
+
+.testimonials .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Increase height to make the images larger */
+}
+
+.testimonials .carousel-image {
+    max-width: 400px;
+    height: 100%; /* Ensure the image covers the carousel item height */
+    max-height: 400px; /* Increase max height for larger images */
+    object-fit: contain; /* Ensure the images fit well within the defined size */
+}
+
+.testimonials .carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for better text visibility */
+    padding: 10px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e7e7e7;
+}
+
+.footer .social-icons i {
+    margin: 0 10px;
+    color: #007bff;
+}
